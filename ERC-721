@@ -15,7 +15,7 @@ contract Nft is ERC721, ERC721Enumerable, Pausable, Ownable, ERC721Burnable, EIP
 
     Counters.Counter private _tokenIdCounter;
 
-    constructor() ERC721("Nft", "NFT") EIP712("Nft", "1") {}
+    constructor() ERC721("LDO", "LDO") EIP712("LDO", "19000") {}
 
     function pause() public onlyOwner {
         _pause();
